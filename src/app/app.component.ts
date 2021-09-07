@@ -31,30 +31,28 @@ export class AppComponent {
   title = 'main-project';
 
   some(test: number, test1: number): void {
-
     // const some = 'some';
 
-    // some.split('').map((a: string) => {
+    // some.split('').map((a  : string) => {
     //   return a + '/';
     // })
 
     // const a = 6;
 
-    // const some = () => { console.log('hello'); }
+    // const some1 = () => { console.log('hello') };
 
     // const some = test === test1 ? true: false;
 
-    const some = [1, 4, {
-      name: 'Oleg',
-    }];
-
+    const some = [1, 4, { name: 'Oleg' }];
     const asdf123 = {
       asdf: '',
       askdfjasd: '',
-    }
+    };
   }
 
-  some1(): void {
-    this.some(5, 6);
+  some1(): string {
+    // this.some(5, 6);
+
+    return 'some';
   }
 }
